@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+    /* Set Color */
+    --color-*: initial;
+    --color-white: #fff;
+    --color-primary: #fe5b19;
+    --color-secondary: #a62bb7;
+    --color-success: #4caf50;
+    --color-warning: #ff9800;
+    --color-error: #f44336;
+    --color-info: #2196f3;
+    --color-gray: #9e9e9e;
+    --color-black: #000;
+
+    /* Set Text */
+    --text-p: 1rem;
+    --text-p--line-height: 1.5rem;
+    --text-p--letter-spacing: 0.125rem;
+    --text-p--font-weight: 700;
+}
+
+@layer base {
+    h1 {
+        font-size: var(--text-2xl);
+    }
+
+    h2 {
+        font-size: var(--text-xl);
+    }
+
+    h3 {
+        font-size: var(--text-lg);
+    }
+
+    h4 {
+        font-size: var(--text-md);
+    }
+
+    a {
+        @apply text-primary hover:text-secondary transition-colors no-underline;
+    }
+
+    body {
+        @apply text-black;
+    }
+
+    button.primary {
+        @apply px-4 py-2 rounded-md font-semibold text-white bg-primary hover:bg-white hover:text-primary hover:outline-1 cursor-pointer;
+    }
+
+    button.primary-outline {
+        @apply px-4 py-2 rounded-md font-semibold hover:text-white hover:bg-primary bg-white text-primary outline-1 cursor-pointer;
+    }
+
+    button.secondary {
+        @apply px-4 py-2 rounded-md font-semibold text-white bg-secondary hover:bg-white hover:text-secondary hover:outline-1 cursor-pointer;
+    }
+
+    button.secondary-outline {
+        @apply px-4 py-2 rounded-md font-semibold hover:text-white hover:bg-secondary bg-white text-secondary outline-1 cursor-pointer;
+    }
+}

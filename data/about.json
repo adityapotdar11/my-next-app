@@ -1,0 +1,18 @@
+{
+    "title": "About Metadata",
+    "description": "This JSON file contains metadata about the application.",
+    "items": [
+        {
+            "title": "Introduction",
+            "description": "This section provides an overview of the application."
+        },
+        {
+            "title": "Features",
+            "description": "This section lists the main features of the application."
+        },
+        {
+            "title": "Contact",
+            "description": "This section contains contact information."
+        }
+    ]
+}

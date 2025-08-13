@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Getting Started with JavaScript",
+        "description": "An introductory guide to JavaScript programming.",
+        "metaTitle": "JavaScript Beginner's Guide",
+        "metaDescription": "Learn the basics of JavaScript, the most popular programming language for web development.",
+        "slug": "getting-started-with-javascript",
+        "image": "https://www.xeni.com/wp-content/uploads/2025/07/Embeded-travel-Superapp-1.jpg",
+        "sections": [
+            {
+                "title": "Introduction",
+                "image": "https://www.xeni.com/wp-content/uploads/2025/07/Embeded-travel-Superapp-1.jpg",
+                "description": "Overview of JavaScript and its importance in web development."
+            },
+            {
+                "title": "Variables and Data Types",
+                "image": "https://www.xeni.com/wp-content/uploads/2025/07/christmas-travel-concept-with-phone.jpg",
+                "description": "Understanding variables and different data types in JavaScript."
+            }
+        ]
+    },
+    {
+        "title": "Understanding React Components",
+        "description": "A deep dive into building reusable UI components with React.",
+        "metaTitle": "React Components Explained",
+        "metaDescription": "Explore how to create and use components in React for efficient UI development.",
+        "slug": "understanding-react-components",
+        "image": "https://www.xeni.com/wp-content/uploads/2025/07/christmas-travel-concept-with-phone.jpg",
+        "sections": [
+            {
+                "title": "What is a Component?",
+                "image": "https://www.xeni.com/wp-content/uploads/2025/07/Embeded-travel-Superapp-1.jpg",
+                "description": "Definition and purpose of components in React."
+            },
+            {
+                "title": "Props and State",
+                "image": "https://www.xeni.com/wp-content/uploads/2025/07/christmas-travel-concept-with-phone.jpg",
+                "description": "How to manage data and behavior in React components using props and state."
+            }
+        ]
+    }
+]
